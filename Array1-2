@@ -1,0 +1,10 @@
+//Iterar por todos los elementos dentro de un array utilizando for y mostrarlos en pantalla.
+const arrayNumeros = [1, 2, 3, 4, 5, 6]
+const recorreArray = (arr) => {
+    for(let i=0; i<=arr.length-1; i++){
+    console.log(arr[i]);
+    }
+  }
+  
+console.log(arrayNumeros)
+recorreArray(arrayNumeros)
