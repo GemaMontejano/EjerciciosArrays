@@ -1,0 +1,12 @@
+const arrayNumeros = [1, 2, 3, 4, 5, 6]
+const recorreArray = arr => {
+    let i = 0;
+    while (i <= arr.length - 1) {
+        console.log(arr[i])
+        i++;
+    }
+
+}
+
+recorreArray(arrayNumeros)
+console.log(arrayNumeros)
