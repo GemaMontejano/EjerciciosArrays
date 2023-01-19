@@ -1,0 +1,6 @@
+//Calcular la media de la suma total de sus elementos 
+let numeros = [1, 2, 3, 4, 5, 6]
+let suma = numeros.reduce((a,n)=> (a +=n,a),0)
+console.log(suma)
+let media= suma/numeros.length
+console.log(media)
