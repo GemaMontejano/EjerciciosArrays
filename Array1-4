@@ -1,0 +1,5 @@
+//Generar una copia de un array pero con todos los elementos incrementado en 1.
+const numeros = [1, 2, 3, 4, 5, 6]
+numeros.push(7)
+const numeroscopia = numeros.slice()
+console.log (numeroscopia)
