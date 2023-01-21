@@ -1,0 +1,5 @@
+//Mostrar todos los elementos dentro de un array sumándole uno a cada uno.
+const numeros = [1, 2, 3, 4, 5, 6]
+const incremento = numeros.map (elemento=> elemento+1)
+
+console.log(incremento)
